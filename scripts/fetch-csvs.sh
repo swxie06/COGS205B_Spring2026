@@ -4,7 +4,7 @@ mkdir -p /tmp/extracted_data
 unzip -q data.zip -d /tmp/extracted_data
 DATE=$(date +%F)
 mkdir -p ./data/$DATE
-mv /tmp/extracted_data/*.csv /data/$DATE/
+mv /tmp/extracted_data/*.csv ./data/$DATE/
 git add data/ 
 git commit -m "Add csv data"
 git add scripts/fetch-csvs.sh
