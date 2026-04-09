@@ -9,4 +9,5 @@ git add data/
 git commit -m "Add csv data"
 git add scripts/fetch-csvs.sh
 git commit -m "Add fetch-csvs script"
-git push
+git remote add origin https://github.com/swxie06/COGS205B_Spring2026.git
+git push -u origin main
