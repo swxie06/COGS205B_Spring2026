@@ -53,8 +53,8 @@ class SignalDetection:
         )
     def __sub__(self, other):
         # Left out as deliberate failure
-        # if not isinstance(other, SignalDetection):
-        #     raise TypeError("Input arguments must be SignalDetection instances.")
+        if not isinstance(other, SignalDetection):
+            raise TypeError("Input arguments must be SignalDetection instances.")
         return SignalDetection(
             self.hits - other.hits, 
             self.misses - other.misses, 
