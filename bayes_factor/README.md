@@ -5,6 +5,6 @@ How to run the tests:
 2. Run the tests using the following commands
 
 ```
-cd /workspace/repo/bayes_factor
+cd /<your_directory>/bayes_factor
 python3 -m unittest tests/test_bayes_factor.py
 ```
