@@ -1,0 +1,14 @@
+Implement a class BayesFactor in bayes_factor.py.
+
+Required methods and signatures:
+- __init__(self, n, k)
+- likelihood(self, theta)
+- evidence_slab(self)
+- evidence_spike(self)
+- bayes_factor(self)
+
+Requirements:
+- The slab prior is U(0, 1).
+- The spike prior is U(a, b) with the values of a and b from Etz et al. (2018).
+- Do not modify the test file.
+- Do not change the constructor signature.
